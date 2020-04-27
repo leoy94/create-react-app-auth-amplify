@@ -23,6 +23,10 @@ class App extends Component {
           >
             Learn React
           </a>
+          <div className="header">
+          <h1>Header</h1>
+          <p>Resize the browser window to see the responsive effect.</p>
+          </div>
         </header>
       </div>
     );
