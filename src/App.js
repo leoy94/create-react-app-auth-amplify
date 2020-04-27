@@ -4,7 +4,7 @@ import './App.css';
 import { withAuthenticator } from 'aws-amplify-react'
 import Amplify, { Auth } from 'aws-amplify';
 import aws_exports from './aws-exports';
-Amplify.configure(aws_exports);
+//Amplify.configure(aws_exports);
 
 class App extends Component {
   render() {
@@ -33,4 +33,4 @@ class App extends Component {
   }
 }
 
-export default withAuthenticator(App, true);
+//export default withAuthenticator(App, true);
